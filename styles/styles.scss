@@ -235,7 +235,7 @@ section {
   .right-about {
     display: grid;
     grid-template-columns: repeat(1fr, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 1rem;
 
     .about-item {
       border: 1px solid var(--color-grey-5);
@@ -260,6 +260,8 @@ section {
           font-weight: 700;
           color: var(--color-secondary);
         }
+
+
 
         .small-text {
           padding-left: 1rem;
@@ -403,15 +405,20 @@ section {
   transition: all .4s ease-in-out;
 }
 
-.tools .devicon,
-.tools-icons .fab,
-.tools-icons .fas {
+// .tools .devicon,
+// .tools-icons .fab,
+// .tools-icons .fas {
+//   color: var(--color-secondary);
+//   font-size: 3.5rem;
+// }
+
+#tools i {
+  font-size: 4.5rem;
   color: var(--color-secondary);
-  font-size: 3.5rem;
 }
 
 
-
+F
 
 //Contact section
 .contact-content-con {
@@ -494,7 +501,7 @@ section {
 }
 
 
-/*Independed components*/
+/*Independent components*/
 .btn-con {
   display: flex;
   align-self: flex-start;

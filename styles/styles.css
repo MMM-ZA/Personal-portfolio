@@ -380,7 +380,7 @@ section {
   transform: scale(1);
 }
 
-.tools {
+.tools-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
@@ -637,7 +637,7 @@ section {
   }
 
   .about-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .about-container .right-about {
