@@ -237,6 +237,7 @@ section {
     grid-template-columns: repeat(1fr, 1fr);
     grid-gap: 1rem;
 
+
     .about-item {
       border: 1px solid var(--color-grey-5);
       border-radius: 5px;
@@ -255,10 +256,16 @@ section {
         display: flex;
         flex-direction: row;
 
+
+
         .large-text {
           font-size: 2rem;
           font-weight: 700;
           color: var(--color-secondary);
+          display: flex;
+            justify-content: center;
+
+
         }
 
 
@@ -405,20 +412,11 @@ section {
   transition: all .4s ease-in-out;
 }
 
-// .tools .devicon,
-// .tools-icons .fab,
-// .tools-icons .fas {
-//   color: var(--color-secondary);
-//   font-size: 3.5rem;
-// }
 
 #tools i {
-  font-size: 4.5rem;
+  font-size: 4rem !important;
   color: var(--color-secondary);
 }
-
-
-F
 
 //Contact section
 .contact-content-con {

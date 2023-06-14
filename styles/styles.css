@@ -643,6 +643,7 @@ section {
   .about-container .right-about {
     grid-template-columns: repeat(1fr 1fr);
     padding-top: 2.5rem;
+
   }
 
   .about-container .left-about {
