@@ -361,6 +361,10 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
+.portfolios .images h3 {
+  text-align: center;
+}
+
 .portfolios .portfolio-item .hover-items .icons .icon i {
   font-size: 1.5rem;
   color: var(--color-white);
@@ -500,7 +504,7 @@ section {
   justify-content: flex-start;
 }
 
-/*Independed components*/
+/*Independent components*/
 .btn-con {
   display: flex;
   align-self: flex-start;
